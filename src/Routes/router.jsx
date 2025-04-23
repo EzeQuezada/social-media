@@ -10,6 +10,7 @@ export function MyRoutes() {
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/create" element={<CreatePostPage />} />        
+              
       </Routes>
     </BrowserRouter>
   );

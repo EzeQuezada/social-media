@@ -42,21 +42,8 @@ export const Login = () => {
                 <span>Google</span>
               </SocialButton>
               
-              <SocialButton 
-                type="button"
-                color="#3b5998"
-              >
-                <FaFacebook />
-                <span>Facebook</span>
-              </SocialButton>
-              
-              <SocialButton 
-                type="button"
-                color="#1DA1F2"
-              >
-                <FaTwitter />
-                <span>Twitter</span>
-              </SocialButton>
+             
+             
             </SocialLoginContainer>
           </LoginForm>
         </LoginCard>

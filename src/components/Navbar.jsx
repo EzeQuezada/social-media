@@ -7,7 +7,7 @@ const Navbar = () => {
   const {signOut } = useAuthStore()
   return (
     <NavContainer>
-      <Logo>MiApp</Logo>
+      <Logo>SOCIAL</Logo>
       <NavLinks>
         <StyledLink to="/home">Home</StyledLink>
         <StyledLink to="/create">Crear Publicación</StyledLink>
