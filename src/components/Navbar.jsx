@@ -1,15 +1,17 @@
 // components/Navbar.jsx
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { useAuthStore } from "../store/AuthStore";
 
 const Navbar = () => {
+  const {signOut } = useAuthStore()
   return (
     <NavContainer>
       <Logo>MiApp</Logo>
       <NavLinks>
         <StyledLink to="/home">Home</StyledLink>
         <StyledLink to="/create">Crear Publicación</StyledLink>
-        <StyledLink to="/login">Logout</StyledLink>
+        <StyledLink to="/login" onClick={signOut}>Logout</StyledLink>
       </NavLinks>
     </NavContainer>
   );
